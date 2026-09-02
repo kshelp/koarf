@@ -1,0 +1,14 @@
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core==0.3.80
+langchain-ollama
+langchain-openai
+chromadb
+sentence-transformers
+pypdf
+cryptography
+python-dotenv
+faiss-cpu
+rank_bm25
+langchain-qdrant==0.2.1
+qdrant-client==1.18.0

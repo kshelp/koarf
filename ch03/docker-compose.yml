@@ -1,0 +1,17 @@
+# 실행 방법: 이 파일이 있는 디렉토리(ch02)에서 실행
+#   docker compose up -d       # 시작(백그라운드). restart: unless-stopped 설정으로
+#                               # 시스템 리부팅 후에도 Docker 데몬이 자동으로 재시작한다.
+#   docker compose ps          # 상태 확인
+#   docker compose logs -f     # 로그 확인
+#   docker compose down        # 중지 및 컨테이너 제거(데이터는 /home/ubuntu/prod/qdrant에 남음)
+# 헬스체크: curl http://localhost:6333/healthz
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"  # REST API
+      - "6334:6334"  # gRPC API
+    volumes:
+      - /home/ubuntu/prod/qdrant:/qdrant/storage

@@ -1,0 +1,564 @@
+[
+  {
+    "query_id": "q1",
+    "query_text": "서울시의 탄소중립 목표 연도와 2030년까지의 온실가스 감축률은?",
+    "relevant_docs": {
+      "2040_seoul_plan.pdf#p65": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q2",
+    "query_text": "서울의 1인 가구 수는 2020년 기준 몇 만 가구인가?",
+    "relevant_docs": {
+      "2040_seoul_plan.pdf#p35": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q3",
+    "query_text": "서울의 2019년 지역내총생산(GRDP)은 얼마인가?",
+    "relevant_docs": {
+      "2040_seoul_plan.pdf#p37": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q4",
+    "query_text": "What is the gross domestic product of the New York City metropolitan economy?",
+    "relevant_docs": {
+      "OneNYC_2050_Strategic_Plan.pdf#p20": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q5",
+    "query_text": "태초에 하나님이 천지를 창조하시니라",
+    "relevant_docs": {
+      "Koreia-성경전서-개역한글판-1956년-All-Bible.pdf#p2": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q6",
+    "query_text": "Transformer 논문에서 WMT 2014 영어-독일어 번역 과제의 BLEU 점수는 얼마인가?",
+    "relevant_docs": {
+      "Attention_Is_All_You_Need.pdf#p8": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q7",
+    "query_text": "BERT는 GLUE 벤치마크 점수를 몇 %까지 끌어올렸는가?",
+    "relevant_docs": {
+      "BERT_Pre-training_of_deep_bidirectional_transformers_for_language_understanding.pdf#p1": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q8",
+    "query_text": "LoRA는 GPT-3 175B를 완전 미세조정할 때와 비교해 학습 가능한 파라미터 수를 몇 배 줄이는가?",
+    "relevant_docs": {
+      "LoRA_Low-rank_adaptation_of_large_language_model.pdf#p1": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q9",
+    "query_text": "바둑의 평균 분기 계수(branching factor)는 체스와 비교해 대략 얼마나 되는가?",
+    "relevant_docs": {
+      "Mastering_the_game_of_Go_with_deep.pdf#p1": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "q10",
+    "query_text": "By what percentage does the dense passage retriever outperform the Lucene-BM25 system in top-20 passage retrieval accuracy?",
+    "relevant_docs": {
+      "Dense_passage_retrieval_for_open-domain_question_answering.pdf#p1": 1
+    },
+    "domain": "general"
+  },
+  {
+    "query_id": "f1",
+    "query_text": "삼성전자는 언제, 어떤 이름으로 처음 설립되었는가?",
+    "relevant_docs": {
+      "001_삼성전자_사업보고서_20260310.pdf#p6": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f2",
+    "query_text": "SK하이닉스는 원래 어떤 회사로 설립되었는가?",
+    "relevant_docs": {
+      "002_SK하이닉스_사업보고서_20260317.pdf#p6": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f3",
+    "query_text": "SK스퀘어의 설립일자는 언제인가?",
+    "relevant_docs": {
+      "003_SK스퀘어_사업보고서_20260317.pdf#p6": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f4",
+    "query_text": "삼성전기의 설립일자와 한국거래소 상장일은 언제인가?",
+    "relevant_docs": {
+      "004_삼성전기_사업보고서_20260310.pdf#p6": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f5",
+    "query_text": "현대자동차의 설립일자는 언제인가?",
+    "relevant_docs": {
+      "005_현대자동차_사업보고서_20260318.pdf#p7": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f6",
+    "query_text": "LG에너지솔루션은 언제, 어느 회사에서 분할되어 신설되었는가?",
+    "relevant_docs": {
+      "006_LG에너지솔루션_사업보고서_20260312.pdf#p7": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f7",
+    "query_text": "삼성물산의 2025년말 기준 사업 부문별 매출 비중은 어떻게 되는가?",
+    "relevant_docs": {
+      "010_삼성물산_사업보고서_20260312.pdf#p8": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f8",
+    "query_text": "삼성전자와 현대자동차 중 어느 회사가 더 먼저 설립되었는가?",
+    "relevant_docs": {
+      "001_삼성전자_사업보고서_20260310.pdf#p7": 1,
+      "005_현대자동차_사업보고서_20260318.pdf#p8": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f9",
+    "query_text": "SK스퀘어의 본사 주소는 어디인가?",
+    "relevant_docs": {
+      "003_SK스퀘어_사업보고서_20260317.pdf#p6": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "f10",
+    "query_text": "삼성물산은 어떤 역사적 배경(모태 기업)을 가지고 있는가?",
+    "relevant_docs": {
+      "010_삼성물산_사업보고서_20260312.pdf#p8": 1
+    },
+    "domain": "finance"
+  },
+  {
+    "query_id": "l1",
+    "query_text": "민법상 사람이 성년에 이르는 나이는 몇 세인가?",
+    "relevant_docs": {
+      "001_민법_20260317.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l2",
+    "query_text": "민법상 미성년자가 법률행위를 할 때 원칙적으로 누구의 동의를 얻어야 하는가?",
+    "relevant_docs": {
+      "001_민법_20260317.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l3",
+    "query_text": "개인정보 보호법에서 정의하는 '가명처리'란 무엇인가?",
+    "relevant_docs": {
+      "069_개인정보 보호법_20230915.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l4",
+    "query_text": "개인정보 보호법 시행령에서 규정하는 영상정보처리기기의 두 종류는 무엇인가?",
+    "relevant_docs": {
+      "088_개인정보 보호법 시행령_20220308.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l5",
+    "query_text": "시청 사무실에서의 대화 녹음으로 통신비밀보호법 위반 혐의를 받은 사건의 항소심 판결 선고일은?",
+    "relevant_docs": {
+      "[형사] 피고인이 자신이 근무하는 시청 사무실에서 소속 팀장과 방문자 사이의 대화를 피고인의 휴대전화로 녹음하여 통신비밀보호법 위반으로 기소된 사건.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l6",
+    "query_text": "민법상 부재자의 생사가 몇 년간 불분명할 때 법원이 실종선고를 하는가?",
+    "relevant_docs": {
+      "001_민법_20260317.pdf#p4": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l7",
+    "query_text": "스마트폰 성능조절 소프트웨어 업데이트 관련 손해배상 사건의 항소심 판결 선고일은?",
+    "relevant_docs": {
+      "[민사] 스마트폰 성능조절기능이 탑재된 소프트웨어 업데이트로 인한 일부 성능제한 또는 앱 실행지연 등 불이익한 결과 초래 가능성에 대한 고지의무 불완전이행 여부가 문제된 사안.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l8",
+    "query_text": "민법 제30조(동시사망)는 2인 이상이 동일한 위난으로 사망한 경우 어떻게 추정하는가?",
+    "relevant_docs": {
+      "001_민법_20260317.pdf#p5": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l9",
+    "query_text": "미성년자 코필러 시술 관련 손해배상 사건의 항소심 판결 선고일은?",
+    "relevant_docs": {
+      "[민사] 미성년자 성형외과 코필러 주입술 시 필러물질이 미성년자에 대한 사용금지 조치를 받은 상태였던 사안.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "l10",
+    "query_text": "분양 상가 기둥으로 인한 손해배상 사건의 항소심 판결 선고일은?",
+    "relevant_docs": {
+      "[민사] 분양받은 상가 내에 설치된 기둥으로 인해 공간활용 제한 등 손해를 입었다고 주장하면서 수분양자들이 분양자를 상대로 고지의무위반을 이유로 손해배상을 구한 사건.pdf#p1": 1
+    },
+    "domain": "law"
+  },
+  {
+    "query_id": "m1",
+    "query_text": "엔테로바이러스감염증·수족구병 관리지침의 목적은 무엇인가?",
+    "relevant_docs": {
+      "007_2026년도 엔테로바이러스감염증·수족구병 관리지침 재안내.pdf#p9": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m2",
+    "query_text": "코로나19 예방접종 피해보상 특별법의 적용 해당기간은 언제부터 언제까지인가?",
+    "relevant_docs": {
+      "006_코로나19예방접종 피해보상 특별법 업무지침(2판).pdf#p8": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m3",
+    "query_text": "항생제 적정사용 관리(ASP) 시범사업에서 의사 인력 충족 기준은 무엇인가?",
+    "relevant_docs": {
+      "005_「항생제 적정사용 관리(ASP) 시범사업」 FAQ 개정 안내(2026.6.30. 기준).pdf#p5": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m4",
+    "query_text": "ASP 시범사업에서 약사 인력 충족 기준은 무엇인가?",
+    "relevant_docs": {
+      "005_「항생제 적정사용 관리(ASP) 시범사업」 FAQ 개정 안내(2026.6.30. 기준).pdf#p7": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m5",
+    "query_text": "ASP 시범사업에서 의사와 약사의 인력 충족 기준을 비교하면 어떻게 다른가?",
+    "relevant_docs": {
+      "005_「항생제 적정사용 관리(ASP) 시범사업」 FAQ 개정 안내(2026.6.30. 기준).pdf#p5": 1,
+      "005_「항생제 적정사용 관리(ASP) 시범사업」 FAQ 개정 안내(2026.6.30. 기준).pdf#p7": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m6",
+    "query_text": "제1급 법정감염병 중 중동호흡기증후군(MERS)의 최종 확진 기관은 어디인가?",
+    "relevant_docs": {
+      "003_2026 검역감염병 대응지침.pdf#p4": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m7",
+    "query_text": "감염병의 예방 및 관리에 관한 법률상 제1급감염병의 정의는 무엇인가?",
+    "relevant_docs": {
+      "002_법정감염병 진단검사 통합지침(제5판).pdf#p9": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m8",
+    "query_text": "법정감염병 제1급과 제2급의 신고 기한 차이는 무엇인가?",
+    "relevant_docs": {
+      "002_법정감염병 진단검사 통합지침(제5판).pdf#p9": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m9",
+    "query_text": "수인성·식품매개감염병의 정의는 무엇인가?",
+    "relevant_docs": {
+      "008_2026년 수인성·식품매개감염병 관리지침 재안내.pdf#p14": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "m10",
+    "query_text": "수인성·식품매개감염병 집단발생(유행)의 기준은 무엇인가?",
+    "relevant_docs": {
+      "008_2026년 수인성·식품매개감염병 관리지침 재안내.pdf#p14": 1
+    },
+    "domain": "medical"
+  },
+  {
+    "query_id": "p1",
+    "query_text": "제3차 아동정책기본계획은 아동복지법 제7조에 따라 몇 년마다 수립되는가?",
+    "relevant_docs": {
+      "009_제3차 아동정책기본계획(2025~2029).pdf#p6": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p2",
+    "query_text": "아동복지법상 '아동'의 정의는 무엇인가?",
+    "relevant_docs": {
+      "009_제3차 아동정책기본계획(2025~2029).pdf#p6": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p3",
+    "query_text": "'최신 AI 10대 핵심 기술 가이드북'에 따르면 LoRA는 어떤 방식으로 파인튜닝 비용을 절감하는가?",
+    "relevant_docs": {
+      "005_최신 AI 10대 핵심 기술 가이드북.pdf#p7": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p4",
+    "query_text": "산업안전보건법령상 특별교육 대상은 몇 종의 유해·위험 작업에 해당하는가?",
+    "relevant_docs": {
+      "007_2026년 안전보건교육 안내서.pdf#p6": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p5",
+    "query_text": "'2026 나에게 힘이되는 복지서비스' 안내책자에는 몇 개의 복지서비스가 정리되어 있는가?",
+    "relevant_docs": {
+      "010_2026 나에게 힘이되는 복지서비스.pdf#p9": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p6",
+    "query_text": "'AI 에이전트 시대의 생존 매뉴얼'이 설명하는 넓은 의미의 개인 정보란 무엇인가?",
+    "relevant_docs": {
+      "004_AI 에이전트 시대의 생존 매뉴얼.pdf#p8": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p7",
+    "query_text": "제3차 아동정책기본계획과 빈곤아동 지원 기본계획의 근거 법률은 각각 무엇인가?",
+    "relevant_docs": {
+      "009_제3차 아동정책기본계획(2025~2029).pdf#p6": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p8",
+    "query_text": "2026 교정통계연보는 어느 시점을 기준으로 통계를 작성하였는가?",
+    "relevant_docs": {
+      "006_2026 교정통계연보.pdf#p3": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p9",
+    "query_text": "'최신 AI 10대 핵심 기술 가이드북'이 정의하는 '에이전틱 AI(Agentic AI)'란 무엇인가?",
+    "relevant_docs": {
+      "005_최신 AI 10대 핵심 기술 가이드북.pdf#p2": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "p10",
+    "query_text": "이 가이드북이 정의하는 '지식 증류(Knowledge Distillation)'란 무엇인가?",
+    "relevant_docs": {
+      "005_최신 AI 10대 핵심 기술 가이드북.pdf#p2": 1
+    },
+    "domain": "public"
+  },
+  {
+    "query_id": "c1",
+    "query_text": "MezzoMedia 이커머스 업종 분석 리포트에 따르면 2021년 국내 이커머스 시장 규모는 얼마인가?",
+    "relevant_docs": {
+      "MezzoMedia 산업 보고서 e커머스.pdf#p1": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c2",
+    "query_text": "'쿠팡 상장과 이베이 인수...' 보고서에 따르면 2020년 기준 국내 이커머스 시장의 온라인 침투율은 얼마인가?",
+    "relevant_docs": {
+      "쿠팡 상장과 이베이 인수  이후 국내 이커머스 시장은 어떻게 변할까.pdf#p2": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c3",
+    "query_text": "2020년 국내 이커머스 상위 3사(네이버·쿠팡·이베이)의 시장 점유율은 2019년 대비 어떻게 변화했는가?",
+    "relevant_docs": {
+      "쿠팡 상장과 이베이 인수  이후 국내 이커머스 시장은 어떻게 변할까.pdf#p2": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c4",
+    "query_text": "이 보고서가 추산한 글로벌 이커머스 시장 규모는 얼마인가?",
+    "relevant_docs": {
+      "쿠팡 상장과 이베이 인수  이후 국내 이커머스 시장은 어떻게 변할까.pdf#p4": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c5",
+    "query_text": "라이브커머스(Live Commerce)란 무엇을 의미하는가?",
+    "relevant_docs": {
+      "PRP008.pdf#p2": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c6",
+    "query_text": "라이브커머스 거래액은 2020년부터 2023년까지 몇 배 증가할 것으로 전망되었는가?",
+    "relevant_docs": {
+      "PRP008.pdf#p2": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c7",
+    "query_text": "'이커머스의 진화와 소비자 후생'에서 정의하는 '체리슈머'란 어떤 소비 행태를 보이는가?",
+    "relevant_docs": {
+      "이커머스의 진화와 소비자 후생.pdf#p4": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c8",
+    "query_text": "2020년 우리나라 이커머스 규모는 얼마이며 전년 대비 몇 % 성장했는가?",
+    "relevant_docs": {
+      "이커머스의 진화와 소비자 후생.pdf#p4": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c9",
+    "query_text": "쿠팡 상장 이후 국내 이커머스 시장 재편의 두 계기는 무엇인가?",
+    "relevant_docs": {
+      "쿠팡 상장과 이베이 인수  이후 국내 이커머스 시장은 어떻게 변할까.pdf#p4": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "c10",
+    "query_text": "'이커머스 솔루션 소개자료'에 따르면 2020년 온라인 쇼핑몰 거래액은 얼마로, 통계 작성 이후 어떤 기록을 세웠는가?",
+    "relevant_docs": {
+      "이커머스 솔루션 소개자료.pdf#p4": 1
+    },
+    "domain": "commerce"
+  },
+  {
+    "query_id": "w1",
+    "query_text": "6월 1일 사건 중 신용보증기금은 언제 설립되었는가?",
+    "relevant_docs": {
+      "6월 1일.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w2",
+    "query_text": "수크로스(자당)의 화학식은 무엇인가?",
+    "relevant_docs": {
+      "수크로스.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w3",
+    "query_text": "국제 정보 올림피아드(IOI)는 언제, 어디서 처음 개최되었는가?",
+    "relevant_docs": {
+      "국제 정보 올림피아드.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w4",
+    "query_text": "가상 메모리(가상 기억 장치)란 무엇인가?",
+    "relevant_docs": {
+      "가상 메모리.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w5",
+    "query_text": "유네스코는 언제 창설되었는가?",
+    "relevant_docs": {
+      "유네스코.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w6",
+    "query_text": "아일랜드 국기의 세 가지 색상은 무엇인가?",
+    "relevant_docs": {
+      "아일랜드의 국기.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w7",
+    "query_text": "아일랜드 국기 모양이 처음 등장한 것은 언제, 어디에서인가?",
+    "relevant_docs": {
+      "아일랜드의 국기.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w8",
+    "query_text": "십자군 전쟁에서 좁은 의미의 십자군과 넓은 의미의 십자군은 어떻게 다른가?",
+    "relevant_docs": {
+      "십자군.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w9",
+    "query_text": "인트론이란 무엇인가?",
+    "relevant_docs": {
+      "인트론.md#p1": 1
+    },
+    "domain": "wiki"
+  },
+  {
+    "query_id": "w10",
+    "query_text": "카논(음악)은 몇 세기에 시작되어 몇 세기경까지 유행했는가?",
+    "relevant_docs": {
+      "카논 (음악).md#p1": 1
+    },
+    "domain": "wiki"
+  }
+]

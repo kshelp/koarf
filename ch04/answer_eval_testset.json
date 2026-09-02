@@ -1,0 +1,52 @@
+[
+  {
+    "item_id": "a1",
+    "question": "서울시의 탄소중립 목표 연도와 2030년까지의 온실가스 감축률은?",
+    "reference": "서울시는 2050년까지 탄소중립을 목표로 하며, 2030년까지 2005년 배출량 대비 40%, 2040년까지 70% 감축을 목표로 한다."
+  },
+  {
+    "item_id": "a2",
+    "question": "서울의 1인 가구 수는 2020년 기준 몇 만 가구인가?",
+    "reference": "서울의 1인 가구는 2020년 기준 139.1만 가구이다."
+  },
+  {
+    "item_id": "a3",
+    "question": "서울의 2019년 지역내총생산(GRDP)은 얼마인가?",
+    "reference": "서울의 2019년 지역내총생산(GRDP)은 411.4조 원이다."
+  },
+  {
+    "item_id": "a4",
+    "question": "What is the gross domestic product of the New York City metropolitan economy?",
+    "reference": "The New York City metropolitan economy has a $1.9 trillion gross domestic product."
+  },
+  {
+    "item_id": "a5",
+    "question": "성경 창세기 1장 1절의 내용은?",
+    "reference": "태초에 하나님이 천지를 창조하시니라."
+  },
+  {
+    "item_id": "a6",
+    "question": "Transformer 논문에서 WMT 2014 영어-독일어 번역 과제의 BLEU 점수는 얼마인가?",
+    "reference": "Transformer는 WMT 2014 영어-독일어 번역 과제에서 28.4 BLEU를 달성하였다."
+  },
+  {
+    "item_id": "a7",
+    "question": "BERT는 GLUE 벤치마크 점수를 몇 %까지 끌어올렸는가?",
+    "reference": "BERT는 GLUE 점수를 80.5%까지 끌어올렸다."
+  },
+  {
+    "item_id": "a8",
+    "question": "LoRA는 GPT-3 175B를 완전 미세조정할 때와 비교해 학습 가능한 파라미터 수를 몇 배 줄이는가?",
+    "reference": "LoRA는 GPT-3 175B 완전 미세조정 대비 학습 가능한 파라미터 수를 10,000배 줄인다."
+  },
+  {
+    "item_id": "a9",
+    "question": "바둑의 평균 분기 계수(branching factor)는 체스와 비교해 대략 얼마나 되는가?",
+    "reference": "바둑의 평균 분기 계수는 약 250으로, 체스의 약 35보다 훨씬 크다."
+  },
+  {
+    "item_id": "a10",
+    "question": "By what percentage does the dense passage retriever outperform the Lucene-BM25 system in top-20 passage retrieval accuracy?",
+    "reference": "The dense passage retriever outperforms the Lucene-BM25 system by 9%-19% in absolute top-20 passage retrieval accuracy."
+  }
+]

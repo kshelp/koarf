@@ -1,0 +1,338 @@
+[
+  {
+    "item_id": "r1",
+    "history": [
+      {"role": "user", "content": "아일랜드 국기의 세 가지 색상은 무엇인가?"},
+      {"role": "assistant", "content": "아일랜드 국기는 녹색, 흰색, 주황색으로 구성되어 있습니다."}
+    ],
+    "query": "그 깃발 모양은 언제, 어디서 처음 등장했어?",
+    "requires_context": true,
+    "expected_keywords": ["아일랜드", "국기"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"아일랜드의 국기.md#p1": 1}
+  },
+  {
+    "item_id": "r2",
+    "history": [
+      {"role": "user", "content": "서울시의 탄소중립 목표 연도와 2030년까지의 온실가스 감축률은?"},
+      {"role": "assistant", "content": "서울시는 2050년 탄소중립을 목표로 하며, 2030년까지 온실가스 감축 계획을 수립하고 있습니다."}
+    ],
+    "query": "그럼 그 도시의 2019년 지역내총생산은 얼마야?",
+    "requires_context": true,
+    "expected_keywords": ["서울"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"2040_seoul_plan.pdf#p37": 1}
+  },
+  {
+    "item_id": "r3",
+    "history": [],
+    "query": "\"태초에 하나님이 천지를 창조하시니라\"라는 구절이 성경 어디에 나와?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": "태초에 하나님이 천지를 창조하시니라",
+    "relevant_docs": {"Koreia-성경전서-개역한글판-1956년-All-Bible.pdf#p2": 1}
+  },
+  {
+    "item_id": "r4",
+    "history": [
+      {"role": "user", "content": "self-attention 개념을 제안한 논문이 뭐야?"},
+      {"role": "assistant", "content": "Vaswani 등이 발표한 'Attention Is All You Need' 논문에서 Transformer와 함께 제안되었습니다."}
+    ],
+    "query": "그 논문에서 \"WMT 2014 영어-독일어 번역 과제\"의 BLEU 점수가 어떻게 나왔는지 알려줘",
+    "requires_context": true,
+    "expected_keywords": ["Transformer", "번역", "BLEU"],
+    "quote_to_preserve": "WMT 2014 영어-독일어 번역 과제",
+    "relevant_docs": {"Attention_Is_All_You_Need.pdf#p8": 1}
+  },
+  {
+    "item_id": "r5",
+    "history": [],
+    "query": "LoRA는 GPT-3 175B를 완전 미세조정할 때와 비교해 학습 가능한 파라미터 수를 몇 배 줄이는가?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": null,
+    "relevant_docs": {"LoRA_Low-rank_adaptation_of_large_language_model.pdf#p1": 1}
+  },
+  {
+    "item_id": "r6",
+    "history": [
+      {"role": "user", "content": "BERT 논문을 한 문장으로 요약해줘"},
+      {"role": "assistant", "content": "BERT는 양방향 Transformer 인코더를 사전학습해 다양한 자연어처리 과제에 적용하는 모델입니다."}
+    ],
+    "query": "그게 GLUE 점수를 몇 %까지 끌어올렸어?",
+    "requires_context": true,
+    "expected_keywords": ["BERT"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"BERT_Pre-training_of_deep_bidirectional_transformers_for_language_understanding.pdf#p1": 1}
+  },
+  {
+    "item_id": "r7",
+    "history": [],
+    "query": "\"open-domain question answering\"에서 Dense Passage Retriever가 Lucene BM25보다 top-20 정확도를 얼마나 앞서는지 알려줘",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": "open-domain question answering",
+    "relevant_docs": {"Dense_passage_retrieval_for_open-domain_question_answering.pdf#p1": 1}
+  },
+  {
+    "item_id": "r8",
+    "history": [
+      {"role": "user", "content": "국제 정보 올림피아드에 대해 설명해줘"},
+      {"role": "assistant", "content": "국제 정보 올림피아드(IOI)는 전 세계 고등학생을 대상으로 한 프로그래밍 경시대회입니다."}
+    ],
+    "query": "그거 언제, 어디서 처음 열렸어?",
+    "requires_context": true,
+    "expected_keywords": ["정보 올림피아드", "IOI"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"국제 정보 올림피아드.md#p1": 1}
+  },
+  {
+    "item_id": "r9",
+    "history": [
+      {"role": "user", "content": "GPT3-175B 모델을 사후양자화하는 GPTQ 기법에 대해 설명해줘"},
+      {"role": "assistant", "content": "GPTQ는 GPT3-175B와 같은 대형 모델을 3~4비트로 양자화해도 정확도를 거의 유지하는 사후 학습 양자화 기법입니다."}
+    ],
+    "query": "그 모델을 float16으로 저장하면 메모리를 얼마나 차지해?",
+    "requires_context": true,
+    "expected_keywords": ["GPT3-175B", "GPTQ"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"GPTQ_Accurate_post-training_quantization_for_generative_pre-trained_transformers.pdf#p1": 1}
+  },
+  {
+    "item_id": "r10",
+    "history": [
+      {"role": "user", "content": "한국어 자연어처리용 파이썬 라이브러리로 뭐가 있어?"},
+      {"role": "assistant", "content": "대표적으로 KoNLPy가 있으며, 여러 형태소 분석기를 통일된 인터페이스로 제공합니다."}
+    ],
+    "query": "그 라이브러리는 몇 가지 형태소 분석기를 지원해?",
+    "requires_context": true,
+    "expected_keywords": ["KoNLPy"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"KoNLPy_Korean_natural_language_processing_in_Python.pdf#p2": 1}
+  },
+  {
+    "item_id": "r11",
+    "history": [
+      {"role": "user", "content": "Meta에서 공개한 대화형 LLM인 Llama 2에 대해 알려줘"},
+      {"role": "assistant", "content": "Llama 2는 사전학습 및 파인튜닝된 LLM 모음으로, 대화용으로 최적화된 버전은 Llama 2-Chat이라 불립니다."}
+    ],
+    "query": "그 모델은 파라미터 규모가 몇 종류로 공개됐어?",
+    "requires_context": true,
+    "expected_keywords": ["Llama 2", "Llama2"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"Llama2_Open_Foundation_and_Fine-Tuned_Chat_Models.pdf#p4": 1}
+  },
+  {
+    "item_id": "r12",
+    "history": [
+      {"role": "user", "content": "딥마인드가 개발한 바둑 인공지능 알파고에 대해 설명해줘"},
+      {"role": "assistant", "content": "알파고는 정책망과 가치망을 결합한 신경망과 몬테카를로 트리 탐색을 사용해 바둑을 두는 시스템입니다."}
+    ],
+    "query": "그 시스템은 기존 체스 프로그램인 딥블루와 학습 방식이 어떻게 달라?",
+    "requires_context": true,
+    "expected_keywords": ["알파고", "AlphaGo"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"Mastering_the_game_of_Go_with_deep.pdf#p6": 1}
+  },
+  {
+    "item_id": "r13",
+    "history": [
+      {"role": "user", "content": "알파고 제로는 기존 알파고와 어떻게 다른가요?"},
+      {"role": "assistant", "content": "알파고 제로는 사람의 기보 없이 자가대국만으로 학습하는 강화학습 알고리즘을 사용합니다."}
+    ],
+    "query": "그 신경망은 정책망과 가치망을 어떤 식으로 구성해?",
+    "requires_context": true,
+    "expected_keywords": ["알파고 제로", "AlphaGo Zero"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"Mastering_the_game_of_Go_without.pdf#p1": 1}
+  },
+  {
+    "item_id": "r14",
+    "history": [
+      {"role": "user", "content": "신경망 기계번역에서 미등록 단어(OOV) 문제를 다루는 대표적 논문이 뭐야?"},
+      {"role": "assistant", "content": "Sennrich 등이 제안한 서브워드 기반 BPE 논문이 대표적입니다."}
+    ],
+    "query": "그 논문 저자들은 어느 대학교 소속이야?",
+    "requires_context": true,
+    "expected_keywords": ["Sennrich", "BPE"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"Neural_machine_translation_of_rare_words_with_subword_units.pdf#p1": 1}
+  },
+  {
+    "item_id": "r15",
+    "history": [
+      {"role": "user", "content": "Lewis 등이 제안한 RAG 논문에서 제안하는 두 가지 방식이 뭐야?"},
+      {"role": "assistant", "content": "RAG-Sequence와 RAG-Token 두 가지 방식을 제안합니다."}
+    ],
+    "query": "그 중 매 토큰마다 다른 문서를 참조할 수 있는 방식은 어느 쪽이야?",
+    "requires_context": true,
+    "expected_keywords": ["RAG-Sequence", "RAG-Token"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"Retrieval-augmented_generation_for_knowledge-intensive_NLP_tasks.pdf#p3": 1}
+  },
+  {
+    "item_id": "r16",
+    "history": [
+      {"role": "user", "content": "BERT를 이용해 문장 임베딩을 뽑는 SBERT 모델에 대해 알려줘"},
+      {"role": "assistant", "content": "SBERT는 샴 네트워크 구조로 BERT를 파인튜닝해 의미상 유사한 문장이 벡터공간에서 가깝도록 만드는 모델입니다."}
+    ],
+    "query": "그 모델은 원래 BERT의 cross-encoder 방식과 뭐가 달라?",
+    "requires_context": true,
+    "expected_keywords": ["SBERT", "Sentence-BERT"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"Sentence-BERT_Sentence_embeddings_using_Siamese_BERT-networks.pdf#p1": 1}
+  },
+  {
+    "item_id": "r17",
+    "history": [
+      {"role": "user", "content": "정보검색에서 사용하는 BM25의 이론적 배경을 다루는 논문이 뭐야?"},
+      {"role": "assistant", "content": "Robertson과 Zaragoza가 정리한 BM25 기반 확률적 적합성 프레임워크 논문입니다."}
+    ],
+    "query": "그 논문에서 말하는 saturation이 무슨 뜻이야?",
+    "requires_context": true,
+    "expected_keywords": ["BM25"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"The_probabilistic_relevance_framework_BM25_and_beyond.pdf#p26": 1}
+  },
+  {
+    "item_id": "r18",
+    "history": [],
+    "query": "\"is a linear transformation on the input vectors that improves the accuracy of the product quantization\"라는 설명이 나오는 논문은 무엇인가?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": "is a linear transformation on the input vectors that improves the accuracy of the product quantization",
+    "relevant_docs": {"Billion-scale_similarity_search_with_GPUs.pdf#p1": 1}
+  },
+  {
+    "item_id": "r19",
+    "history": [],
+    "query": "\"RAG는 LLM의 환각 현상을 최소화할 수 있는 효과적인 방법\"이라고 설명하는 국내 학술지 논문 제목이 뭐야?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": "RAG는 LLM의 환각 현상을 최소화할 수 있는 효과적인 방법",
+    "relevant_docs": {"검색_증강_생성(RAG)_기술의_최신_연구_동향에_대한_조사.pdf#p2": 1}
+  },
+  {
+    "item_id": "r20",
+    "history": [],
+    "query": "\"하나의 유령 - 공산주의라는 유령이, 유럽에 떠돌고 있다\"라는 문장으로 시작하는 문서가 뭐야?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": "하나의 유령 - 공산주의라는 유령이, 유럽에 떠돌고 있다",
+    "relevant_docs": {"공산당 선언.md#p1": 1}
+  },
+  {
+    "item_id": "r21",
+    "history": [
+      {"role": "user", "content": "태극기의 가운데 그려진 문양은 뭘 상징해?"},
+      {"role": "assistant", "content": "태극 문양은 음과 양의 조화를 상징합니다."}
+    ],
+    "query": "그 국기의 공식 색상은 언제 정해졌어?",
+    "requires_context": true,
+    "expected_keywords": ["태극기"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"대한민국의 국기.md#p1": 1}
+  },
+  {
+    "item_id": "r22",
+    "history": [
+      {"role": "user", "content": "집합론을 창시한 수학자가 누구야?"},
+      {"role": "assistant", "content": "게오르크 칸토어입니다. 무한 집합과 정렬 집합 개념을 정립했습니다."}
+    ],
+    "query": "그 사람은 대각선 논법으로 뭘 증명했어?",
+    "requires_context": true,
+    "expected_keywords": ["칸토어"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"게오르크 칸토어.md#p1": 1}
+  },
+  {
+    "item_id": "r23",
+    "history": [
+      {"role": "user", "content": "자연로그의 밑 e는 누가 처음 특정한 상수로 표현했어?"},
+      {"role": "assistant", "content": "고트프리트 빌헬름 라이프니츠가 1690년경 처음 상수로 표현했습니다."}
+    ],
+    "query": "그 상수를 초월수라고 처음 증명한 사람은 누구야?",
+    "requires_context": true,
+    "expected_keywords": ["자연로그"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"자연로그의 밑.md#p1": 1}
+  },
+  {
+    "item_id": "r24",
+    "history": [
+      {"role": "user", "content": "덧셈과 곱셈처럼 순서를 바꿔도 결과가 같은 성질을 뭐라고 해?"},
+      {"role": "assistant", "content": "교환법칙이라고 합니다."}
+    ],
+    "query": "그 법칙을 만족하지 않는 연산에는 뭐가 있어?",
+    "requires_context": true,
+    "expected_keywords": ["교환법칙"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"교환법칙.md#p1": 1}
+  },
+  {
+    "item_id": "r25",
+    "history": [
+      {"role": "user", "content": "영춘권을 배운 홍콩 출신 무술 배우가 누구야?"},
+      {"role": "assistant", "content": "이소룡입니다. 엽문 사부에게 영춘권을 사사했습니다."}
+    ],
+    "query": "그 사람의 두 자녀 이름이 뭐야?",
+    "requires_context": true,
+    "expected_keywords": ["이소룡"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"이소룡.md#p1": 1}
+  },
+  {
+    "item_id": "r26",
+    "history": [
+      {"role": "user", "content": "단종 복위 운동을 주도하다 처형된 사육신 중 한 명이 누구야?"},
+      {"role": "assistant", "content": "성삼문입니다. 세조의 왕권 강화에 반대해 단종 복위를 도모했습니다."}
+    ],
+    "query": "그 사람은 누구와 함께 거사를 계획했어?",
+    "requires_context": true,
+    "expected_keywords": ["성삼문"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"성삼문.md#p1": 1}
+  },
+  {
+    "item_id": "r27",
+    "history": [
+      {"role": "user", "content": "조선시대 유학 교육기관을 계승한 대한민국의 대학교가 어디야?"},
+      {"role": "assistant", "content": "성균관대학교입니다. 유교 정신을 건학이념으로 삼고 있습니다."}
+    ],
+    "query": "그 학교의 동아시아학 연구기관은 언제 설립됐어?",
+    "requires_context": true,
+    "expected_keywords": ["성균관"],
+    "quote_to_preserve": null,
+    "relevant_docs": {"성균관대학교.md#p1": 1}
+  },
+  {
+    "item_id": "r28",
+    "history": [
+      {"role": "user", "content": "은신 생활 중 남긴 유대인 소녀의 일기로 유명한 책이 뭐야?"},
+      {"role": "assistant", "content": "안네의 일기입니다. 안네 프랑크가 2년간 은신 생활을 하며 쓴 일기입니다."}
+    ],
+    "query": "그 일기에서 안네가 일기장을 \"키티\"라고 부른 이유가 뭐야?",
+    "requires_context": true,
+    "expected_keywords": ["안네"],
+    "quote_to_preserve": "키티",
+    "relevant_docs": {"안네의 일기.md#p1": 1}
+  },
+  {
+    "item_id": "r29",
+    "history": [],
+    "query": "조지 버클리가 주장한 '존재하는 것은 인식되는 것이다'라는 명제는 어떤 철학 사조에 속해?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": null,
+    "relevant_docs": {"관념론.md#p1": 1}
+  },
+  {
+    "item_id": "r30",
+    "history": [],
+    "query": "1965년 노벨 물리학상을 리처드 파인먼과 공동 수상한 일본인 물리학자는 누구야?",
+    "requires_context": false,
+    "expected_keywords": [],
+    "quote_to_preserve": null,
+    "relevant_docs": {"도모나가 신이치로.md#p1": 1}
+  }
+]

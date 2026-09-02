@@ -1,0 +1,21 @@
+# Environments
+__pycache__
+.claude
+.env
+.venv
+
+# Code
+build
+ch03/.bm25_cache
+ch03/.streamlit
+ch03/__pycache__
+ch03/data
+ch03/static/
+ch04/__pycache__
+ch04/results
+chat_history
+db_snapshot
+old
+prod
+test
+논문
